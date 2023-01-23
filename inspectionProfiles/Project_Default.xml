@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W391" />
+          <option value="E265" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.__getitem__" />
+          <option value="PyQt5.QtWidgets.create.clicked" />
+          <option value="list.exec" />
+          <option value="main.MyWidget.addText" />
+          <option value="main.MyWidget.*" />
+          <option value="file.MyWidget.*" />
+          <option value="other.functions.Functions.*" />
+          <option value="second_window.Second_window.*" />
+          <option value="main.Second_window.*" />
+          <option value="main.Functions.*" />
+          <option value="main.All.*" />
+          <option value="main.delete_all.clicked" />
+          <option value="main.delete_text.clicked" />
+          <option value="main.MainWindow.*" />
+          <option value="main.What_is_this.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
